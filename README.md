@@ -14,6 +14,7 @@ Fine-tuning-of-large-models/
 |	|-- test.jsonl # 测试集
 |-- scripts/
 |	|--run.sh # 运行脚本
+|-- qwen-1.5b # 原始模型
 |-- requirements.txt # 依赖库列表
 |-- qwen_medical_lora/ # 微调后模型输出目录
 |--	result/ # 微调结果图像
@@ -33,6 +34,6 @@ bash scripts/run.sh
 
 训练完成后，LoRA 权重将保存在 `qwen_medical_lora/` 目录下，各项指标在`results/` 下。
 
-## 权重说明
+## 说明
 
-微调产出的权重文件 'adapter_model.safetensors' 太大，未包含在本仓库中，如需获取该文件，请联系: `25125334@bjtu.edu.cn`。
+微调产出的权重文件 'adapter_model.safetensors' 和原始模型 /qwen-1.5b 未包含在本仓库中，如需获取该文件，请联系: `25125334@bjtu.edu.cn`。
