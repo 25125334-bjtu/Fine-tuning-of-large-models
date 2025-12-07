@@ -1,0 +1,13 @@
+transformers>=4.40.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+peft>=0.11.0
+trl>=0.9.0
+datasets>=2.18.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+chardet>=5.2.0
+openpyxl>=3.1.0
+
+#pip uninstall torch torchvision torchaudio -y
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
